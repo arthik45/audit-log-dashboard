@@ -8,7 +8,7 @@ const app = express()
 
 app.use(
     cors({
-        origin: "https://audit-log-dashboard-rm842kt8x-arthik-ms-projects.vercel.app/",
+        origin: "https://audit-log-dashboard-nx58kh2em-arthik-ms-projects.vercel.app/",
     })
 );
 app.use(express.json())
