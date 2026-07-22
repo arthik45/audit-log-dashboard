@@ -48,7 +48,7 @@ audit-log-dashboard/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/audit-log-dashboard.git
+git clone https://github.com/arthik45/audit-log-dashboard.git
 
 cd audit-log-dashboard
 ```
@@ -212,17 +212,9 @@ client/
 
 ---
 
-## Future Improvements
+## Dashboard
 
-- Authentication (JWT)
-- Export logs (CSV/Excel)
-- Date range filter
-- Charts and analytics
-- Role-based access control
-- Docker support
-
----
-
+![Dashboard](./screenshots/dashboard.png)
 ## Author
 
 **Arthik**
