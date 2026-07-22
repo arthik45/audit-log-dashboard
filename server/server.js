@@ -5,7 +5,13 @@ import dotenv from 'dotenv'
 import router from "./routes/auditRoutes.js";
 dotenv.config();
 const app = express()
-app.use(cors())
+import cors from "cors";
+
+app.use(
+    cors({
+        origin: "https://your-vercel-app.vercel.app",
+    })
+);
 app.use(express.json())
 const port = process.env.PORT || 4000;
 app.use((req, res, next) => {
