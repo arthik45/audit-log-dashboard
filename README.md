@@ -214,7 +214,7 @@ client/
 
 ## Dashboard
 
-![Dashboard](./screenshots/dashboart.png)
+![Dashboard](./screenshots/dashboard.png)
 ## Author
 
 **Arthik**
