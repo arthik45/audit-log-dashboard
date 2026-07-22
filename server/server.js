@@ -5,7 +5,6 @@ import dotenv from 'dotenv'
 import router from "./routes/auditRoutes.js";
 dotenv.config();
 const app = express()
-import cors from "cors";
 
 app.use(
     cors({
