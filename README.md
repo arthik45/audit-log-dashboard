@@ -48,7 +48,7 @@ audit-log-dashboard/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/audit-log-dashboard.git
+git clone https://github.com/arthik45/audit-log-dashboard.git
 
 cd audit-log-dashboard
 ```
