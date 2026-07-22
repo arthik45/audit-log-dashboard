@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "https://audit-log-dashboard-mv4j.onrender.com/api",
 });
