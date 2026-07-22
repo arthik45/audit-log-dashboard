@@ -1,0 +1,122 @@
+[
+  {
+    "actor": "priya.nair@company.com",
+    "role": "admin",
+    "action": "DELETE_USER",
+    "resource": "/api/users/334",
+    "resourceType": "USER",
+    "ipAddress": "192.168.1.45",
+    "region": "ap-south-1",
+    "severity": "HIGH",
+    "status": "Unresolved",
+    "timestamp": "2025-06-14T08:32:11Z"
+  },
+  {
+    "actor": "rahul.sharma@company.com",
+    "role": "security",
+    "action": "LOGIN",
+    "resource": "/api/auth/login",
+    "resourceType": "AUTH",
+    "ipAddress": "192.168.1.20",
+    "region": "ap-south-1",
+    "severity": "LOW",
+    "status": "Resolved",
+    "timestamp": "2025-06-14T09:10:22Z"
+  },
+  {
+    "actor": "meena.kumar@company.com",
+    "role": "user",
+    "action": "UPDATE_PROFILE",
+    "resource": "/api/profile",
+    "resourceType": "PROFILE",
+    "ipAddress": "192.168.1.35",
+    "region": "us-east-1",
+    "severity": "MEDIUM",
+    "status": "Resolved",
+    "timestamp": "2025-06-14T09:45:15Z"
+  },
+  {
+    "actor": "arun.raj@company.com",
+    "role": "admin",
+    "action": "CREATE_USER",
+    "resource": "/api/users",
+    "resourceType": "USER",
+    "ipAddress": "192.168.1.55",
+    "region": "eu-west-1",
+    "severity": "LOW",
+    "status": "Resolved",
+    "timestamp": "2025-06-14T10:05:41Z"
+  },
+  {
+    "actor": "divya.s@company.com",
+    "role": "manager",
+    "action": "EXPORT_REPORT",
+    "resource": "/api/reports/export",
+    "resourceType": "REPORT",
+    "ipAddress": "192.168.1.77",
+    "region": "ap-south-1",
+    "severity": "HIGH",
+    "status": "Unresolved",
+    "timestamp": "2025-06-14T10:25:09Z"
+  },
+  {
+    "actor": "vijay.r@company.com",
+    "role": "security",
+    "action": "LOCK_ACCOUNT",
+    "resource": "/api/users/221",
+    "resourceType": "USER",
+    "ipAddress": "192.168.1.91",
+    "region": "us-west-2",
+    "severity": "MEDIUM",
+    "status": "Resolved",
+    "timestamp": "2025-06-14T11:12:54Z"
+  },
+  {
+    "actor": "kavya.m@company.com",
+    "role": "user",
+    "action": "LOGIN_FAILED",
+    "resource": "/api/auth/login",
+    "resourceType": "AUTH",
+    "ipAddress": "192.168.1.102",
+    "region": "ap-south-1",
+    "severity": "HIGH",
+    "status": "Unresolved",
+    "timestamp": "2025-06-14T11:40:33Z"
+  },
+  {
+    "actor": "john.doe@company.com",
+    "role": "developer",
+    "action": "DEPLOY",
+    "resource": "/api/deploy",
+    "resourceType": "DEPLOYMENT",
+    "ipAddress": "192.168.2.10",
+    "region": "eu-central-1",
+    "severity": "LOW",
+    "status": "Resolved",
+    "timestamp": "2025-06-14T12:15:40Z"
+  },
+  {
+    "actor": "sneha.p@company.com",
+    "role": "admin",
+    "action": "RESET_PASSWORD",
+    "resource": "/api/users/111/reset",
+    "resourceType": "USER",
+    "ipAddress": "192.168.2.15",
+    "region": "ap-south-1",
+    "severity": "MEDIUM",
+    "status": "Resolved",
+    "timestamp": "2025-06-14T13:20:18Z"
+  },
+  {
+    "actor": "mohan.k@company.com",
+    "role": "security",
+    "action": "DELETE_FILE",
+    "resource": "/api/files/22",
+    "resourceType": "FILE",
+    "ipAddress": "192.168.2.50",
+    "region": "us-east-2",
+    "severity": "HIGH",
+    "status": "Unresolved",
+    "timestamp": "2025-06-14T14:55:44Z"
+  }
+]

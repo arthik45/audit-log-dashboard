@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
     res.send("server is running")
     console.log("server is running")
 })
-app.use("/api", router)
+app.use("/api/logs", router)
 
 
 const startServer = async () => {
