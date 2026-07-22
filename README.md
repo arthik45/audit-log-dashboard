@@ -212,17 +212,9 @@ client/
 
 ---
 
-## Future Improvements
+## Dashboard
 
-- Authentication (JWT)
-- Export logs (CSV/Excel)
-- Date range filter
-- Charts and analytics
-- Role-based access control
-- Docker support
-
----
-
+![Dashboard](./screenshots/dashboard.png)
 ## Author
 
 **Arthik**
