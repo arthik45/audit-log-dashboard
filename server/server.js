@@ -10,8 +10,9 @@ app.use(
     cors({
         origin: [
             "http://localhost:5173",
-            "https://audit-log-dashboard-nine.vercel.app",
+            "https://audit-log-dashboard-aeryvumm4-arthik-ms-projects.vercel.app",
         ],
+        methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     })
 );
