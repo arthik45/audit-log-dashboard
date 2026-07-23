@@ -8,7 +8,11 @@ const app = express()
 
 app.use(
     cors({
-        origin: "https://audit-log-dashboard-nx58kh2em-arthik-ms-projects.vercel.app",
+        origin: [
+            "http://localhost:5173",
+            "https://audit-log-dashboard-nine.vercel.app",
+        ],
+        credentials: true,
     })
 );
 app.use(express.json())
