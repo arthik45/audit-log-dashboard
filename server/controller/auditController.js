@@ -81,9 +81,12 @@ export const getLogs = async (req, res) => {
             logs,
         });
     } catch (error) {
+        console.error("getLogs Error:", error);
+
         res.status(500).json({
             success: false,
             message: error.message,
+            stack: error.stack, // remove after debugging
         });
     }
 };
